@@ -5,7 +5,7 @@
   https://github.com/web-push-libs/webpush-java        *MIT License*
    
    To learning purposes, most of the code has been simplified or removed.
-   The original code is more mature. 
+   The original code is more mature/complex. 
    
 2. Used Bouncy Castle Crypto library      *MIT License*
    https://bouncycastle.org/ 
@@ -15,8 +15,6 @@
 
 
 ### Note: 
-   It's learning. 
-   
    For production use better HTTP client (not HttpsURLConnection).
    
    See for example original: https://github.com/web-push-libs/webpush-java
@@ -34,7 +32,8 @@ https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-
   c:\webpush-java\src\main\resources\server.properties
   
 2. Create javascript service worker and create web-push subscription.
-   Copy from subscription object endpoint, p256dh and auth values to file:
+
+    Copy from subscription object endpoint, p256dh and auth values to file:
    c:\webpush-java\subscription.properties
 
 3. Install 
@@ -46,5 +45,5 @@ https://developers.google.com/web/fundamentals/push-notifications/subscribing-a-
    
 5. Run example:
    gradle run --args="Hello Web Push !"
-   The example send notification to to Google (or Mozilla) server and then to your browser.
+   The example send notification to Google (or Mozilla) server and then to your browser.
    
