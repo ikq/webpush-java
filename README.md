@@ -36,7 +36,7 @@ the keys can be generated via https://github.com/web-push-libs/web-push
 
 2. Create javascript service worker and create web-push subscription.
    Copy from subscription object endpoint, p256dh and auth values to file:
-  c:\webpush-java\subscription.properties
+   c:\webpush-java\subscription.properties
 
 3. Install java, gradle. 
 
