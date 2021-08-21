@@ -11,7 +11,7 @@
      Almost all code modified and build according webpush-go algorithm.  
    
 2. Used Bouncy Castle Crypto library  
-   https://bouncycastle.org/ 
+   https://bouncycastle.org/   
    *MIT License*  
 
 3. Message encryption and vapid algorithm verified with:  
