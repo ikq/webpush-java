@@ -2,16 +2,21 @@
 
 
 1. Forked from:
-  https://github.com/web-push-libs/webpush-java        *MIT License*
+  https://github.com/web-push-libs/webpush-java  
+  *MIT License*
    
-   To learning purposes, most of the code has been simplified or removed.
-   The original code is more mature/complex. 
+      **For study - I use minified code, with minimal library dependencies.**
+  
+     Original code was used mostly as example of bouncy castle API usage.  
+     Almost all code modified and build according webpush-go algorithm.  
    
-2. Used Bouncy Castle Crypto library      *MIT License*
+2. Used Bouncy Castle Crypto library  
    https://bouncycastle.org/ 
+   *MIT License*  
 
-3. Message encryption and vapid algorithm verified with:
-   https://github.com/SherClockHolmes/webpush-go      *MIT Licence*
+3. Message encryption and vapid algorithm verified with:  
+   https://github.com/SherClockHolmes/webpush-go  
+   *MIT Licence*
 
 
 ### Note: 
